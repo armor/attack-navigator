@@ -19,8 +19,16 @@
             "polyfills": "src/polyfills.ts",
             "preserveSymlinks": true,
             "assets": [
-              { "glob": "*.md", "input": "../", "output": "/" },
-              { "glob": "*.md", "input": "../layers", "output": "/layers" },
+              {
+                "glob": "*.md",
+                "input": "../",
+                "output": "/"
+              },
+              {
+                "glob": "*.md",
+                "input": "../layers",
+                "output": "/layers"
+              },
               "src/assets",
               "src/favicon.ico"
             ],
@@ -152,5 +160,8 @@
     "@schematics/angular:directive": {
       "prefix": "app"
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
