@@ -49,6 +49,34 @@ export class TabsComponent implements AfterContentInit, AfterViewInit {
         this.viewModelsService = viewModelsService;
     }
 
+    public prebuiltLayers = [{
+      href: 'siem/microsoft-sentinel-baseline.json',
+      icon: '/assets/azure-logo.png',
+      name: 'Microsoft Sentinel (Baseline)',
+      description: 'Layer showing coverage of out-of-the-box Microsoft Sentinel detection rule library.',
+    }, {
+      href: 'siem/quantum-detection-rule-library.json',
+      icon: 'https://www.quantum.security/assets/img/home/xdr-heading-alternate.svg',
+      name: 'Quantum XDR+SOC Rule Library',
+      description: 'Layer showing coverage of the Quantum Security detection rule library.',
+    }, {
+        href: 'siem/microsoft-quantum-rules.json',
+        icon: 'https://www.quantum.security/assets/img/home/xdr-heading-alternate.svg',
+        name: 'Microsoft + Quantum Rule Library',
+        description: 'Layer showing coverage of the Microsoft + Quantum detection rules.',
+    }, {
+      href: 'siem/quantum-vapt-cspm.json',
+      icon: 'https://www.quantum.security/assets/img/home/vapt-heading-alternate.svg',
+      name: 'Quantum CSPM Scanning',
+      description: 'Layer showing coverage of the Quantum Security CSPM configuration checks.',
+    }, {
+      href: 'siem/quantum-vapt-endpoint.json',
+      icon: 'https://www.quantum.security/assets/img/home/vapt-heading-alternate.svg',
+      name: 'Quantum Container Scanning',
+      description: 'Layer showing coverage of the Quantum Security container scanning checks.',
+    }];
+
+
     @ViewChild('safariWarning') safariWarning : TemplateRef<any>;
 
     ngAfterContentInit() {
