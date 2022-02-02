@@ -10,3 +10,4 @@ import * as app_package from "../../package.json";
 export const nav_version: string = app_package["version"];
 export const layer_version: string = "4.3";
 export const QUANTUM_CUSTOMIZATION_VERSION: string = '2022.01.17-beta.1';
+export const ARMOR_CUSTOMIZATION_VERSION: string = '2022.02.02-beta.1';

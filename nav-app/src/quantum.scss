@@ -33,12 +33,12 @@ body {
 
   .logo {
     display: block;
-    background: transparent url('https://www.quantum.security/assets/img/quantum-logo.svg') no-repeat;
+    background: transparent url('https://cdn.armor.com/app/uploads/2020/03/armor-logo.svg') no-repeat;
     border: none;
     outline: none;
     text-indent: -100vw;
     height: 1.25rem;
-    width: 8rem;
+    #width: 8rem;
     position: absolute;
     top: 15px;
     left: 20px;
@@ -405,7 +405,7 @@ td.tactic, .technique-row > td:nth-child(odd) {
   }
 
   a, a:hover {
-    color: #00da55 !important;
+    color: #ff6600 !important;
   }
 }
 

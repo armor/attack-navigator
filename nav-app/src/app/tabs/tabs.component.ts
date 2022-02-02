@@ -57,23 +57,13 @@ export class TabsComponent implements AfterContentInit, AfterViewInit {
     }, {
       href: 'siem/quantum-detection-rule-library.json',
       icon: 'https://www.quantum.security/assets/img/home/xdr-heading-alternate.svg',
-      name: 'Quantum XDR+SOC Rule Library',
+      name: 'Armor XDR+SOC Rule Library',
       description: 'Layer showing coverage of the Quantum Security detection rule library.',
     }, {
         href: 'siem/microsoft-quantum-rules.json',
         icon: 'https://www.quantum.security/assets/img/home/xdr-heading-alternate.svg',
-        name: 'Microsoft + Quantum Rule Library',
+        name: 'Microsoft + Armor Rule Library',
         description: 'Layer showing coverage of the Microsoft + Quantum detection rules.',
-    }, {
-      href: 'siem/quantum-vapt-cspm.json',
-      icon: 'https://www.quantum.security/assets/img/home/vapt-heading-alternate.svg',
-      name: 'Quantum CSPM Scanning',
-      description: 'Layer showing coverage of the Quantum Security CSPM configuration checks.',
-    }, {
-      href: 'siem/quantum-vapt-endpoint.json',
-      icon: 'https://www.quantum.security/assets/img/home/vapt-heading-alternate.svg',
-      name: 'Quantum Container Scanning',
-      description: 'Layer showing coverage of the Quantum Security container scanning checks.',
     }];
 
 
