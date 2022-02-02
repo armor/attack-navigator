@@ -9,7 +9,7 @@ body {
   user-select: none;
 
   .pace-progress {
-    background: #00da55;
+    background: #f60;
     position: fixed;
     z-index: 2000;
     top: 0;
@@ -273,7 +273,7 @@ td.tactic, .technique-row > td:nth-child(odd) {
   }
 
   &.highlight {
-    background: #00da55 !important;
+    background: #ff6600 !important;
     color: #000;
 
     & > div > span {
