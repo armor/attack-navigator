@@ -55,12 +55,12 @@ export class TabsComponent implements AfterContentInit, AfterViewInit {
       name: 'Microsoft Sentinel (Baseline)',
       description: 'Layer showing coverage of out-of-the-box Microsoft Sentinel detection rule library.',
     }, {
-      href: 'siem/quantum-detection-rule-library.json',
+      href: 'siem/armor-detection-rule-library.json',
       icon: 'https://www.quantum.security/assets/img/home/xdr-heading-alternate.svg',
       name: 'Armor XDR+SOC Rule Library',
       description: 'Layer showing coverage of the Armor detection rule library.',
     }, {
-        href: 'siem/microsoft-quantum-rules.json',
+        href: 'siem/microsoft-armor-rules.json',
         icon: 'https://www.quantum.security/assets/img/home/xdr-heading-alternate.svg',
         name: 'Microsoft + Armor Rule Library',
         description: 'Layer showing coverage of the Microsoft + Armor detection rules.',

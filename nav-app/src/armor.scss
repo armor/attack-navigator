@@ -34,11 +34,12 @@ body {
   .logo {
     display: block;
     background: transparent url('https://cdn.armor.com/app/uploads/2020/03/armor-logo.svg') no-repeat;
+    background-size: contain;
     border: none;
     outline: none;
     text-indent: -100vw;
     height: 1.25rem;
-    width: 8rem;
+    width: 3rem;
     position: absolute;
     top: 15px;
     left: 20px;
@@ -78,7 +79,7 @@ body {
 }
 
 .tabs-container {
-  margin-left: 11rem;
+  margin-left: 5.5rem;
 }
 
 .tabs .tab-title:hover:not(.active), .theme-use-system .tabs .tab-title:focus:not(.active) {
