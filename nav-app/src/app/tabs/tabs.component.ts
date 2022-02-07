@@ -49,6 +49,24 @@ export class TabsComponent implements AfterContentInit, AfterViewInit {
         this.viewModelsService = viewModelsService;
     }
 
+    public prebuiltLayers = [{
+      href: 'siem/microsoft-sentinel-baseline.json',
+      icon: '/assets/azure-logo.png',
+      name: 'Microsoft Sentinel (Baseline)',
+      description: 'Layer showing coverage of out-of-the-box Microsoft Sentinel detection rule library.',
+    }, {
+      href: 'siem/armor-detection-rule-library.json',
+      icon: 'https://www.quantum.security/assets/img/home/xdr-heading-alternate.svg',
+      name: 'Armor XDR+SOC Rule Library',
+      description: 'Layer showing coverage of the Armor detection rule library.',
+    }, {
+        href: 'siem/microsoft-armor-rules.json',
+        icon: 'https://www.quantum.security/assets/img/home/xdr-heading-alternate.svg',
+        name: 'Microsoft + Armor Rule Library',
+        description: 'Layer showing coverage of the Microsoft + Armor detection rules.',
+    }];
+
+
     @ViewChild('safariWarning') safariWarning : TemplateRef<any>;
 
     ngAfterContentInit() {

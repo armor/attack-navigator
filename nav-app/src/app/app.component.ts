@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
   @ViewChild(TabsComponent) tabsComponent;
 
   nav_version: string = globals.nav_version;
+  armorCustomizationVersion: string = globals.ARMOR_CUSTOMIZATION_VERSION;
   public user_theme: string;
 
   @HostListener('window:beforeunload', ['$event'])
