@@ -9,7 +9,7 @@ body {
   user-select: none;
 
   .pace-progress {
-    background: #f60;
+    background: #fff;
     position: fixed;
     z-index: 2000;
     top: 0;
@@ -33,7 +33,7 @@ body {
 
   .logo {
     display: block;
-    background: transparent url('https://cdn.armor.com/app/uploads/2020/03/armor-logo.svg') no-repeat;
+    background: transparent url('https://www.armor.com/assets/img/armor-logo-white.svg') no-repeat;
     background-size: contain;
     border: none;
     outline: none;
@@ -274,7 +274,7 @@ td.tactic, .technique-row > td:nth-child(odd) {
   }
 
   &.highlight {
-    background: #ff6600 !important;
+    background: #fff !important;
     color: #000;
 
     & > div > span {
